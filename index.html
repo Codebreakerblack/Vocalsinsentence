@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Vocales</title>
+</head>
+<body>
+    <header>
+        <div><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2koyK_Ke50dMnPp8MJh6QPY2Ox0X8S8X8EQ&s"><alt="Vocales"></div>
+
+        <title>Buscar Vocales en una Frase</title>
+
+    </header>
+    <main>
+        <h1>Buscar Vocales en una Frase</h1>
+
+        <label for="inputSentence">Ingresa una frase:</label>
+        <input type="text" id="inputSentence" placeholder="Escribe tu frase aquí">
+        <button onclick="showResults()">Mostrar Vocales</button>
+
+        <h2>Resultados:</h2>
+
+        <p><strong>Frase original:</strong> <span id="resultGetSentence"></span></p>
+        <p><strong>Vocales en la Frase:</strong> <span id="resultSearchVocals"></span></p>
+        <p><strong>Vocales no duplicadas:</strong> <span id="resultDeleteDuplicity"></span></p>
+        <p><strong>Vocales en cadena:</strong> <span id="resultGetVocals"></span></p>
+    
+    </main>
+    <footer>
+        <h3>"Cuando uno escribe, el lector es uno"</h3>
+        <p>JORGE LUIS BORGES</p>
+        <p>&copy; 2024</p>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+</html>
